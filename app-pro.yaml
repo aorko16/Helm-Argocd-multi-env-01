@@ -6,7 +6,7 @@ metadata:
 spec:
   description: Frontend project - Production
   sourceRepos:
-    - https://github.com/aorko16/Helm-Argocd-01.git
+    - https://github.com/aorko16/Helm-Argocd-multi-env-01.git
   destinations:
     - namespace: my-app-pro
       server: https://kubernetes.default.svc
@@ -22,7 +22,7 @@ metadata:
 spec:
   project: frontend-my-app-pro
   source:
-    repoURL: https://github.com/aorko16/Helm-Argocd-01.git
+    repoURL: https://github.com/aorko16/Helm-Argocd-multi-env-01.git
     targetRevision: main
     path: my-app
     helm:
